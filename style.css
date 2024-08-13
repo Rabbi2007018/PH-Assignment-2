@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+
+.inter-body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+.dancing-script-shape {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+  
+    font-style: normal;
+  }
+
+
+/* header area */
+.header{
+    max-width: 100%;
+    border: 1px red solid;
+    height: 610px;
+    background-image:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(13,13,13,0.9528186274509804) 50%, rgba(0,0,0,1) 100%);;
+    
+}
+.nav{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.nav-content{
+    width: 350px;
+    height: 46px;
+    display: flex;
+    gap: 35px;
+    border: 1px solid  rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    box-sizing: border-box;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    
+    justify-content:flex-start;
+    align-items: center;
+}
+.nav-content button{
+    border-radius: 46px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px 8px 20px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 12px;
+  
+    font-style: normal;
+}
+
+
+/* head-body */
+
+
+.head-body{
+ display: flex;
+ justify-content: space-around;
+ margin-top: 40px;
+}
+.content{
+    width:40%;
+    margin-top: 70px;
+   
+}
+.content h1{
+    font-size: 55px;
+    color: white;
+}
+.content p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 25px;
+}
+.btn{
+    margin-top: 25px;
+}
+.btn1{
+    width: 170px;
+    height: 45px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+}
+.btn2{
+    width: 170px;
+    height: 45px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+}
+.img{
+    position: relative;
+}
+.P500{
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: white;
+    
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    right: 100px;
+    top: 280px;
+    padding: 8px;
+}
+.P350{
+    width: 150px;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: white;
+    
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    right: 370px;
+    top: 510px;
+    padding: 8px;
+    display: flex;
+    gap: 9px;
+}
