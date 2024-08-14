@@ -274,41 +274,65 @@
 }
 .BMI-Calculator{
     width: 100%;
-    background: rgb(34, 34, 34);    
+    background: rgb(34, 34, 34); 
+    height: 500px;   
+    margin-top: 100px;
      
 }
 .BMI-Cal{
+    margin: 0px auto;
     
+ 
+    width: 80%;
+    height: 100%;
+
     background: rgb(34, 34, 34);
     display: flex;
-    
-    justify-content: space-between;
+    border: 1px solid red;
+    justify-content:space-between;
     align-items: center;
+   
    
 
 
 }
 .bmi-table{
     color: white;
-   
-   
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 30%;
     justify-content: center;
     align-items: center;
+   
+    
+   
+   
+    
 }
 .bmi-table h1{
     font-size: 24px;
+    
+}
+.table{
+    margin-top: 50px;
 }
 .bmi-table table, th, td {
-    border: 1px solid rgba(255, 255, 255, 0.349);
+    border: 1px solid rgba(255, 255, 255, 0.185);
 
     border-collapse: collapse;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.445);
     font-size: 16px;
     text-align: center;
 
     
 }
+.bmi-input{
+    border: 1px solid red;
+    width: 60%;
+    height: 260px;
 
+}
 .bmi-input h1{
     color: white;
     font-size: 24px;
@@ -318,10 +342,14 @@
 .bmi-input p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
+  
+
 }
 .bmi-data{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+  
+
 }
 
 
@@ -460,4 +488,67 @@
 .tariner-data p{
     font-size: 12px;
     color: rgb(158, 154, 154);
+}
+
+/* footer  */
+
+
+.footer{
+    border: 1px solid rgb(5, 5, 5);
+    background-color: black;
+}
+.footer-content{
+    background-color: rgb(34, 34, 34);
+  
+    margin-top: 130px;
+    
+    width: 100%;
+    height: 470px;
+    border: 1px solid  rgb(34, 34, 34);
+}
+.foot{
+   
+    width: 80%;
+    margin: 0px auto;
+   margin-top: 100px;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+
+.fitness h1{
+    color: rgb(230, 83, 60);
+}
+.fitness p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    margin-top: 30px;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.start h3{
+    color: white;
+}
+.start p{
+    color: rgba(255, 255, 255, 0.5);
+}
+hr{
+    margin: 0px auto;
+    margin-top: 100px;
+    width: 80%;
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+    
+}
+.copy{
+   margin-top: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+ 
+    
+    text-align: center;
 }
