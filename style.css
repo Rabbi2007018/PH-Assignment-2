@@ -27,11 +27,17 @@
     
 }
 .nav{
-    width: 80%;
+    width: 100%;
     margin: 0px auto;
+    
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+ 
+    
+}
+.nav h3{
+    margin-left: 80px;
 }
 .nav-content{
     width: 350px;
@@ -44,7 +50,8 @@
     padding: 2px;
     color: rgb(255, 255, 255);
     font-size: 10px;
-    
+   
+    margin-right: 50px;
     justify-content:flex-start;
     align-items: center;
 }
@@ -68,14 +75,17 @@
 
 
 .head-body{
+    
  display: flex;
  justify-content: space-around;
  margin-top: 40px;
+ 
 }
 .content{
-    width:40%;
+    width:50%;
     margin-top: 70px;
-   
+  
+    margin-left: 70px;
 }
 .content h1{
     font-size: 55px;
@@ -107,6 +117,9 @@
 }
 .img{
     position: relative;
+   
+    width: 50%;
+    margin-left: 200px;
 }
 .P500{
     position: absolute;
@@ -117,7 +130,7 @@
     
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    right: 100px;
+    right: 60px;
     top: 280px;
     padding: 8px;
 }
@@ -131,7 +144,7 @@
     
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    right: 370px;
+    right: 270px;
     top: 510px;
     padding: 8px;
     display: flex;
@@ -151,7 +164,7 @@
     margin: 0px auto;
     justify-content: center;
     align-items: center;
-    margin-top: 140px;
+    margin-top: 100px;
     
 }
 .habit-content{
@@ -388,13 +401,13 @@
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
-    gap: 50px;
+    gap: 30px;
 }
 .diet-img img{
     border-radius: 50%;
     border: 1px solid rgb(66, 66, 66);
     box-shadow: 0px 0px 5px rgb(85, 84, 84);
-    width: 200px;
+    width: 180px;
     height: 180px;
 }
 .diet-img h1{
@@ -439,64 +452,56 @@
 .team-member{
     margin: 0px auto;
     margin-top: 50px;
-    width: 80%;
+    width: 60%;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.teammate-content{
+    gap: 40px;
     
   
-    margin: 0px auto;
-    width: 100%;
+   
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 30px;
-    gap: 30px;
-    margin-left: 15px;
-    
+    padding: 50px;
    
-    
 }
 
-.teammate-content img{
+.team-member img{
    
     padding: 15px;
-    border-radius: 20px;  
+    border-radius: 20px; 
+   
    
 }
 .trainer1{
     background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.692),transparent), url(./image/trainer1.png);
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    border-radius: 18px;
-    width: 300px;
-    height: 300px;
-}
-.trainer2{
-    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.692),transparent), url(./image/trainer2.png);
-    background-size: 200px;
+    background-size: 50px;
     background-repeat: no-repeat;
     background-size: cover;
     
     border-radius: 18px;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.trainer2{
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.692),transparent), url(./image/trainer2.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
 }
 .trainer3{
     background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.692),transparent), url(./image/trainer3.png);
-    background-size: 200px;
+    background-size: 50px;
     background-repeat: no-repeat;
     background-size: cover;
 
     border-radius: 18px;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     
 }
 .trainer4{
@@ -507,9 +512,8 @@
     background-size: cover;
   
     border-radius: 18px;
-    width: 300px;
-    height: 300px;
-    
+    width: 100%;
+    height: 100%;
 }
 
 .trainer5{
@@ -519,8 +523,8 @@
     background-size: cover;
   
     border-radius: 18px;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     
 }
 .trainer6{
@@ -530,8 +534,8 @@
     background-size: cover;
 
     border-radius: 18px;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     
 }
 .tariner-data{
@@ -541,6 +545,7 @@
     justify-content: flex-end;
     align-items:flex-start;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .tariner-data h4{
@@ -567,7 +572,7 @@
     
     width: 100%;
     height: 470px;
-    border: 1px solid  rgb(34, 34, 34);
+    border-top: 1px solid  rgb(34, 34, 34);
 }
 .foot{
    
