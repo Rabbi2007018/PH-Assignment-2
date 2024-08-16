@@ -21,8 +21,9 @@
 /* header area */
 .header{
     max-width: 100%;
+
     border: 1px rgb(0, 0, 0) solid;
-    height: 610px;
+    height: auto;
     background-image:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(13,13,13,0.9528186274509804) 50%, rgba(0,0,0,1) 100%);;
     
 }
@@ -79,6 +80,8 @@
  display: flex;
  justify-content: space-around;
  margin-top: 40px;
+ max-width: 100%;
+ height: auto;
  
 }
 .content{
@@ -88,6 +91,7 @@
     margin-left: 70px;
 }
 .content h1{
+    
     font-size: 55px;
     color: white;
 }
@@ -130,8 +134,8 @@
     
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    right: 60px;
-    top: 280px;
+    right: 80px;
+    top: 120px;
     padding: 8px;
 }
 .P350{
@@ -145,7 +149,7 @@
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     right: 270px;
-    top: 510px;
+    top: 390px;
     padding: 8px;
     display: flex;
     gap: 9px;
@@ -158,6 +162,7 @@
 .main{
     background-color: black;
     border: 1px solid black;
+    max-width: 100%;
 }
 .habit{
     width: 80%;
@@ -213,7 +218,7 @@
 
 .run{
     width: 80%;
-    height: 371px;
+    height: auto;
     margin: 0px auto;
     border-radius: 18px;
     background: rgb(34, 34, 34);
@@ -221,13 +226,13 @@
 }
 
 .run-container{
-    width: 100%;
-    height: 371px;
+    width: 87%;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
-   
+    padding: 50px;
+    gap: 80px;
 
 }
 .run-content{
@@ -269,24 +274,27 @@
 .BMI{
     margin: 0px auto;
     margin-top: 130px;
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
-    align-items:flex-start;
+    justify-content:center;
+    align-items:center;
     gap: 20px;
     
 }
 .BMI h1{
     color: white;
     text-align:start;
+    width: 50%;
 }
 .BMI p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
+    width: 50%;
 }
-.BMI-Calculator{
+.BMI-Calculator {
     width: 100%;
+    
     background: rgb(34, 34, 34); 
     height: 500px;   
     margin-top: 100px;
@@ -314,7 +322,7 @@
     display: flex;
     flex-direction: column;
     
-    width: 30%;
+    width: 60%;
     justify-content: center;
     align-items: center;
    
@@ -571,7 +579,7 @@
     margin-top: 130px;
     
     width: 100%;
-    height: 470px;
+    height: auto;
     border-top: 1px solid  rgb(34, 34, 34);
 }
 .foot{
@@ -584,6 +592,7 @@
     justify-content: space-around;
     align-items: flex-start;
     justify-items: flex-start;
+    
 }
 
 .fitness h1{

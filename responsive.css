@@ -1,0 +1,100 @@
+@media screen  and (max-width:576px) {
+    
+    .head-body{
+        flex-direction: column;
+       
+    }
+    .content{
+        max-width: 100%;
+        
+    }
+    .content h1{
+        width: 500px;
+    }
+    .btn{
+        display: flex;
+        gap: 20px;
+    }
+    .main{
+        border-top: 1px solid black;
+        margin-top: 300px;
+    }
+    .img{
+        position: relative;
+       
+        width: 50%;
+        margin-left: 200px;}
+    .P500{
+        position: absolute;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        color: white;
+        
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        right: 900px;
+        top: 120px;
+        padding: 8px;
+
+    }
+    .habit-img{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .run-container{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .run-content{
+        margin-right: 200px;
+    }
+    .run-img{
+        margin-right: 40px;
+    }
+    .BMI {
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .BMI h1{
+      
+    }
+    .BMI-Cal{
+        flex-direction: column;
+    }
+    .bmi-table{
+        margin-top: 50px;
+        
+    }
+    .bmi-input{
+        margin-top: 50px;
+    }
+    
+    .food{
+        margin-top: px;
+    }
+    .diet{
+        margin-top: 250px;
+    }
+    .diet-img{
+        flex-direction: column;
+    }
+    .team-member{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot{
+        flex-direction: column;
+        gap: 30px;
+    }
+    hr{
+        margin-top: 50px;
+    }
+    .copy{
+        margin-top: 10px;
+    }
+
+}
